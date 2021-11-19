@@ -8,6 +8,6 @@ sources:
 maintainers:
   - name: Hardware Management
     url: https://github.com/orgs/Cray-HPE/teams/hardware-management
-appVersion: "1.8.0"
+appVersion: "2.0.0"
 annotations:
   artifacthub.io/license: "MIT"
