@@ -1,0 +1,15 @@
+global:
+  appVersion: 1.7.0
+
+image:
+  repository: artifactory.algol60.net/csm-docker/stable/hms-trs-operator
+  prefix: artifactory.algol60.net/csm-docker/stable/
+  pullPolicy: IfNotPresent
+
+# Operator specific.
+watchNamespace: "services"
+
+# Variables to pass onto workers.
+workerLogLevel: "INFO"
+workerKafkaBrokerSpec: "cray-shared-kafka-kafka-bootstrap.services.svc.cluster.local:9092"
+workerKafkaClusterName: "cray-shared-kafka"
