@@ -3,7 +3,7 @@ global:
 
 image:
   repository: artifactory.algol60.net/csm-docker/stable/hms-trs-operator
-  prefix: artifactory.algol60.net/csm-docker/stable/
+  prefix: artifactory.algol60.net/csm-docker/stable
   pullPolicy: IfNotPresent
 
 # Operator specific.
