@@ -1,5 +1,5 @@
 global:
-  appVersion: 2.0.0
+  appVersion: 2.0.1
 
 image:
   repository: artifactory.algol60.net/csm-docker/stable/hms-trs-operator
